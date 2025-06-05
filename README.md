@@ -7,7 +7,7 @@
 - Begin by locating where you want to place this repository on your computer. In my case, I have a CloudSociety folder on my desktop where I drop all our lab projects into. Either download this repository and drag it where you like or open the folder of your choice and clone it to your own computer using the Git command below.
 
 ```
- git clone repo-link
+ git clone https://github.com/byui-cloudsociety/s3-img-tutorial.git
 ```
 
 - Open this project in your preferred code editor, I will use VSCode. There will be two folders in the repo, _frontend_ and _backend_, change directories into the backend folder so that we can install the necessary node libraries to get this app working!
