@@ -77,8 +77,8 @@ We are going to create an S3 Bucket which is a data storage container! This will
             "Principal": "*",
             "Action": [
                 "s3:GetObject",
-                "s3:PutObject",
-            ]
+                "s3:PutObject"
+            ],
             "Resource": "arn:aws:s3:::YOUR-S3-BUCKET-NAME-GOES-HERE/*"
         }
     ]
