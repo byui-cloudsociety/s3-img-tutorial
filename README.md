@@ -38,6 +38,8 @@ npm install
 AWS_ACCESS_KEY_ID=random_string_characters_from_canvas
 AWS_SECRET_ACCESS_KEY=random_string_characters_from_canvas
 AWS_SESSION_TOKEN=random_string_characters_from_canvas
+AWS_REGION = the_current_region_you_are_using
+AWS_BUCKET_NAME = the_name_you_chose
 ```
 
 ## Step 3: Create AWS S3 Bucket!
@@ -50,7 +52,7 @@ We are going to create an S3 Bucket which is a data storage container! This will
 
 - Click _Create new bucket_
 
-- Enter the bucket name: _s3-img-tutorial_
+- Enter the bucket name: _s3-img-tutorial_ (The name is unique globally so try to get a unique name)
 
 - Unselect the checkbox for _Block all public access_ and check the box for the acknowledgement below that
 
